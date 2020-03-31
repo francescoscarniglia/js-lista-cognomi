@@ -17,6 +17,4 @@ var cognomiListaOrdinati = cognomiLista.sort();
 console.log(cognomiListaOrdinati);
 
 // scrivi anche la posizione della lista in cui  il nuovo utente si trova
-for(var i=0; i < cognomiListaOrdinati.length; i++) {
-  console.log(cognomiLista.indexOf(cognomeUtente));
-}
+console.log(cognomiListaOrdinati.indexOf(cognomeUtente) +1);
